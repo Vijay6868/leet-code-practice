@@ -16,12 +16,15 @@ namespace _80_remove_duplicates_from_sorted_2
             
             for(int i=0; i < nums.Length-1; i++)
             {
+                // comparing 
                 if (nums[i] == nums[i + 1])
                 {
-                    i++;
-                    Console.WriteLine("if executed");
+                    if (nums[i] == nums[i - 1])
+                    {
+
+                    }
                 }
-                Console.WriteLine("value of "+i);
+                
                 else
                 {
 
