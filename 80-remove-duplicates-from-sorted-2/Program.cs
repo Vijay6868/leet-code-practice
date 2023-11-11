@@ -12,37 +12,25 @@ namespace _80_remove_duplicates_from_sorted_2
         public static int removeDuplicates(int[] nums)
         {
             int count = 0;
-            int i = 0;
+            //int i = 0;
+            int index = 0;
 
-            while ( i< nums.Length - 1) 
+            for(int i = 0; i < nums.Length; i++)
             {
-                // comparing 
-                if (nums[i] == nums[i + 1])
+                for(int j = 0; j < nums.Length; j++)
                 {
-                    nums[count] = nums[i];
-                    nums[count + 1] = nums[i + 1];
-                    count = count + 2;
-                    i = i + 2;
-                    if (nums[i] == nums[i - 1])
+                    if (nums[i] == nums[j])
                     {
+                        count++;
+                        if (count > 2)
+                        {
 
+                        }
                     }
                 }
-                else if (nums[i] != nums[i + 1])
-                {
-                    if (i == 0)
-                    {
-                        i=i+2;
-                    }
-                    else if(i>0 && nums[i]!=nums[i-1])
-                }
-                
-                else
-                {
-
-                }
-
             }
+                
+              
             //nums[count] = nums[nums.Length - 1];
 
             foreach(int element in nums)
