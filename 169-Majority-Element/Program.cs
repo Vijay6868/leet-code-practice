@@ -6,7 +6,7 @@ namespace _169_Majority_Element
     {
         static void Main(string[] args)
         {
-            int[] arr = { 2,3,3 };
+            int[] arr = { 1, 3, 1, 1, 4, 1, 1, 5, 1, 1, 6, 2, 2 };
 
             Console.WriteLine(MajortiyElement(arr));
         }
@@ -25,8 +25,9 @@ namespace _169_Majority_Element
                 if (count > collector)
                 {
                     majEle = nums[i];
+                    collector = count;
                 }
-                collector = count;
+                
                 count = 0;
                 
             }
