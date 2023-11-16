@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace _13_Roman_to_integer
 {
     class Program
@@ -8,29 +8,40 @@ namespace _13_Roman_to_integer
         {
             string value = "LVIII";
             Console.WriteLine(RomanToInt(value));
-
+            value = "IV";
+            Console.WriteLine(RomanToInt(value));
         }
         public static int RomanToInt(string s)
         {
+            int num = 0;
             int counter = 0;
+
+            Dictionary <char, int> romanNumerals =
+                new Dictionary<char, int>
+                {
+                    {'M',1000 },
+                    {'D',500 },
+                    {'C',100 },
+                    {'L',50 },
+                    {'X',10 },
+                    {'V',5 },
+                    {'I',1 }
+                };
 
             for(int i=s.Length-1; i >=0; i--)
             {
-                if (s[i] == 'I')
+               if(counter<= romanNumerals[s[i]])
                 {
-                    counter = counter + 1;
+                    num += romanNumerals[s[i]];
                 }
-                else if (s[i] == 'V')
+               else if (counter > romanNumerals[s[i]])
                 {
-                    counter = counter + 5;
+                    num -= romanNumerals[s[i]];
                 }
-                else if (s[i] == 'L')
-                {
-                    counter = counter + 50;
-                }
+                counter = romanNumerals[s[i]];
             }
 
-            return counter;
+            return num;
         }
     }
 }
