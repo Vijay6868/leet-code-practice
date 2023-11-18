@@ -4,7 +4,8 @@ public class HelloWorld
 {
     public static void Main(string[] args)
     {
-       int[] nums = {2,3,1,1,4};
+       string[] nums1 = {"flower","flow","flight"};
+       string[] nums2 = {"dog","racecar","car"};
     }
      public string LongestCommonPrefix(string[] strs) {
         
