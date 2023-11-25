@@ -1,11 +1,16 @@
 
 def strStr(haystack, needle):
     j=0
-    for i in range(0,len(haystack)-1):
+    for i in range(0,len(haystack)):
         if needle[j]==haystack[i]:
-           j= j+1
+           if j<len(needle)-1:
+            j = j+1
+           else:
+              break
+        #elif j>0 and j != len(needle):
+           # j=0
 
-    if j==len(needle):
+    if j==len(needle)-1:
         return j
     else:
         return -1
