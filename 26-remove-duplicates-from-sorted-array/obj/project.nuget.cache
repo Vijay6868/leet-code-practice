@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hMMQksLrz5j/cKSYIasPVU4/0yjVt/pm/WRmLCdT8DUfRA/Or80C+g/RjGBq/dChept0RbcokjxHyDKbIN/9ow==",
+  "dgSpecHash": "rpHPcKqsf4y0ss80pHvsH481TVLFVR5LjbecaxVvf1nvQV6TgFrnhno4KLht+0SL9SvUt8h95us5LpqT7FVQ+w==",
   "success": true,
-  "projectFilePath": "G:\\My Drive\\Academic\\LeetCode\\Top Interview 150\\26-remove-duplicates-from-sorted-array\\26-remove-duplicates-from-sorted-array.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/vj/Documents/Developer/leet-code-practice/26-remove-duplicates-from-sorted-array/26-remove-duplicates-from-sorted-array.csproj",
+  "expectedPackageFiles": [
+    "/Users/vj/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/vj/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/vj/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -8,6 +8,6 @@ public class HelloWorld
        string[] nums2 = {"dog","racecar","car"};
     }
      public string LongestCommonPrefix(string[] strs) {
-        
+        Console.WritLine(strs.Length);
     }
 }

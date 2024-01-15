@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "khqicw89eUfB4IKvwEnZPw032/+4K3+zNdlgAFH8pFVjD1KQF0RFnHDv2V31uB/XuNI9RbJEGx4DnytsDiaKtg==",
+  "dgSpecHash": "I4iOezYijvs7Q4ft4zgSUIWyRhNP91UpQDYOY2YSMSCQkQYPdqd9x/+uojCNMTqlQ7qS/xq7nIW9+kkDrJ26Uw==",
   "success": true,
-  "projectFilePath": "G:\\My Drive\\Academic\\LeetCode\\Top Interview 150\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/vj/Documents/Developer/leet-code-practice/ConsoleApp1/ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "/Users/vj/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/vj/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/vj/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
