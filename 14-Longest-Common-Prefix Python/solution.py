@@ -1,12 +1,17 @@
-def LongestCommonPrefix(wordList):
-    wordList.sort()
-    firstWord = wordList[0]
-    lastWord = wordList[len(wordList)-1]
+def LongestCommonPrefix(str):
+    str.sort()
+    firstWord = str[0]
+    lastWord = str[len(str)-1]
     index = 0
     prefix = ""
-    while(firstWord[index]==lastWord[index]):
-            prefix = prefix + firstWord[index]
-            index = index +1
+    
+    while(index<len(firstWord) and index<len(lastWord)):
+            if firstWord[index]==lastWord[index]:
+                  prefix = prefix + firstWord[index]
+                  index = index +1
+            else:
+                  break
+    
     return prefix
 
 nums1 = ["flower","flow","flight"]
