@@ -17,6 +17,8 @@ def strStr1(haystack, needle):
                      return i
                 else:
                      return-1
+            else:
+                 return-1
 haystack="aaaaa"
 needle= "bba"          
 print(strStr1(haystack,needle))
