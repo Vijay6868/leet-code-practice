@@ -14,12 +14,13 @@ def strStr1(haystack, needle):
                 if count==len(needle):
                     #count=0
                     #print("value of i : "+str(i))
+                     
                      return i
                 else:
                      return-1
-            else:
-                 return-1
-haystack="hello"
-needle= "ll"         
+            elif i==len(haystack)-1:
+                 return -1
+haystack="aaa"
+needle= "bab"         
 print(strStr1(haystack,needle))
 #print(len(needle))
