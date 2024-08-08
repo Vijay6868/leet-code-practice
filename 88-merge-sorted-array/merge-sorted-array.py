@@ -5,6 +5,7 @@ def merge(nums1, m, nums2, n):
     for i in range(0,m):
        
         nums1[m+i] = nums2[i]
+        print(m+i)
     
     nums1.sort()
     print(nums1)
